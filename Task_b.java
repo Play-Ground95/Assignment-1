@@ -13,7 +13,7 @@ public class Task_b {
         System.out.printf("%s|%s%s%-15s%s%s|%s %s%-5s%s%s|%s \n",ORANGE,ORANGER,COLOR3,"NAME",RESET3,ORANGE,ORANGER,COLOR3,"AGE",RESET3,ORANGE,ORANGER);
         System.out.printf("%s+%15s+%5s+%s \n",ORANGE,"---------------","------",ORANGER);
         System.out.printf("%s|%s%-15s%s|%s %s%-5s%s%s|%s \n",ORANGE,ORANGER,"Alice",ORANGE,ORANGER,COLOR2,"24",RESET2,ORANGE,ORANGER);
-        System.out.printf("%s|%s%-15s%s|%s %s%-5s%s%s|%s \n",ORANGE,ORANGER,"Bob",ORANGE,ORANGER,COLOR2,"30",RESET2,ORANGE);
+        System.out.printf("%s|%s%-15s%s|%s %s%-5s%s%s|%s \n",ORANGE,ORANGER,"Bob",ORANGE,ORANGER,COLOR2,"30",RESET2,ORANGE,ORANGER);
         System.out.printf("%s+%15s+%5s+%s \n",ORANGE,"---------------","------",ORANGER);
     }
 }
