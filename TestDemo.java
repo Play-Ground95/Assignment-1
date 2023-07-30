@@ -3,11 +3,21 @@ public class TestDemo {
   
     public static void main(String[] args) {
         
-        String text = "Colored Background";
+        final int id = 1;
+        String name = "Kasun Sampath";
+        double avgMarks = 65.67999;
 
-        System.out.println("Using printf with ANSI escape codes:");
-        System.out.printf("\u001B[41;37m %s \u001B[0m%n", text); // Red background, white text
-        System.out.printf("\u001B[42;30m %s \u001B[0m%n", text); // Green background, black text
-        System.out.printf("\u001B[43;34m %s \u001B[0m%n", text); // Yellow background, blue text
+        System.out.printf("id=S%04d, name=%s, avgMarks=%.2f \n", id, name, avgMarks);
+        System.out.println();
+
+        final String LINE = "+%6s+%1$15s+%1$6s+ \n";
+        final String RECORD = "|SK-%03d|%-15s|%6.2f| \n";
+
+        System.out.printf(LINE, "");
+        System.out.printf(RECORD, id, name, avgMarks);
+        System.out.printf(LINE, "");
+        System.out.printf(RECORD, 2, "Nuwan Ramindu", 62.2225);
+        System.out.printf(LINE, "");
+        
     }
 }
