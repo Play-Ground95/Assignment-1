@@ -11,7 +11,8 @@ public class Task_c {
         System.out.printf("%s|%s%s%-15s%s%s|%s %s%-10s%s%s|%s %s%-12s%s%s| \n",ORANGE,ORANGER,COLOR3,"CITY",RESET3,ORANGE,ORANGER,COLOR3,"STATE",RESET3,ORANGE,ORANGER,COLOR3,"POPULATION",RESET3,ORANGE,ORANGER);
         System.out.printf("%s+%15s+%10s+%12s+%s \n",ORANGE,"---------------","-----------","-------------",ORANGER);
         System.out.printf("%s|%s%s%-15s%s%s|%s%s%-10s%s%s |%s%s%-12s%s%s | \n",ORANGE,ORANGER,COLOR4,"Los Angeles",RESET4,ORANGE,ORANGER,COLOR4,"California",RESET4,ORANGE,ORANGER,COLOR4,"3,966,936",RESET4,ORANGE,ORANGER);
-        System.out.printf("%s|%s%s%-15s%s%s|%s%s%-10s%s%s |%s%s%-12s%s%s | \n",ORANGE,ORANGER,COLOR4,"Los Angeles",RESET4,ORANGE,ORANGER,COLOR4,"California",RESET4,ORANGE,ORANGER,COLOR4,"3,966,936",RESET4,ORANGE,ORANGER);
+        System.out.printf("%s|%s%s %6s%s%-15s%s%s|%s%s%-10s%s%s |%s%s%-12s%s%s | \n",ORANGE,ORANGER,COLOR4,"New",RESET4,COLOR3,"York",RESET3,ORANGE,ORANGER,COLOR4,"New York",RESET4,ORANGE,ORANGER,COLOR4,"8,336,817",RESET4,ORANGE,ORANGER);
+        System.out.printf("%s+%15s+%10s+%12s+%s \n",ORANGE,"---------------","-----------","-------------",ORANGER);
 
     }
 }
