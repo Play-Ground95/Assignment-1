@@ -8,7 +8,7 @@ public class Task_b {
         final String ORANGE ="\u001B[38;5;214m";
         final String ORANGER ="\u001B[0m";
 
-
+        
         System.out.printf("%s+%15s+%5s+%s \n",ORANGE,"---------------","------",ORANGER);
         System.out.printf("%s|%s%s%-15s%s%s|%s %s%-5s%s%s|%s \n",ORANGE,ORANGER,COLOR3,"NAME",RESET3,ORANGE,ORANGER,COLOR3,"AGE",RESET3,ORANGE,ORANGER);
         System.out.printf("%s+%15s+%5s+%s \n",ORANGE,"---------------","------",ORANGER);
